@@ -64,11 +64,7 @@ Unfortunately, these results are nearly identical to the faulty 250 run previous
 
 # Conclusion and Future Work
 
-[TODO]()
-[TODO]()
-[TODO]()
-[TODO]()
-[TODO]()
+The re-implementation process of the paper showed how a robust, effective watermark could be implemented to essentially any LLM in an simple, intuitive, and cost-effective way. Using simple statistical analysis, the outputted logits of any LLM can be modified using the red/green list rule with little negative effects on the quality of the output. Additionally, a reliable detector can be made using a simple z-test analysis. While we did run into some issues in our implementation because of the logits processing within HuggingFace's pipeline, the process was mostly straightforward. We did have some issues in replicating the results precisely, especially when considering how much our results changed with different gamma values. Our original hypothesis that this was caused by the decoder architecture of our model was proven to be incorrect when we re-ran our results, so further work is needed to fix the underlying issue. For this further work, we may want to consider how our statistics are calculated for the z-test in the detector, particularly the variance.
 
 # References
 ## Project links:
