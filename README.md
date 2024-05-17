@@ -75,13 +75,6 @@ See the [data folder](./data).
 
 # Progress Logs
 
-## [TODO: Finish 1-2 more progress logs below]()
-[TODO]()
-[TODO]()
-[TODO]()
-[TODO]()
-[TODO]()
-
 ### [Apr.13]: (**SEAN**) Right now the implementation is *incredibly* messy but does (did...) watermark.
 * Implemented minimal version of everything (on CPU, haven't tested GPU)
   * Watermarker can participate in a HF text generation pipeline and nudge logits
